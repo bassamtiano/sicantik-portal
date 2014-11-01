@@ -1,0 +1,44 @@
+@import '_typography';
+
+/* Main Layout =============================================================================== */
+
+$main-width:100%;
+$default-font-size:14px;
+
+
+/* For Header ================================================================================ */
+
+$header-navbar-vertical-padding:10px;
+$header-navbar-horizontal-padding:5px;
+
+/* For Banner ================================================================================ */
+
+
+
+/* For Body ================================================================================== */
+
+/* For Footer ================================================================================ */
+
+$footer-height:20px + $default-font-size + 5px;
+
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: roboto_condensed;
+
+	background-color: #f1f4f9;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding: 0;
+}
+
+
+@import '_header';
+@import '_banner';
+@import '_body';
+@import '_page_table';
+
+@import '_footer';
